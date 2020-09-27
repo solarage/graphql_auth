@@ -1,0 +1,28 @@
+.info {
+  &-container {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+  }
+  &-list-container {
+    width: 100%;
+    max-width: 30rem;
+    min-height: 9rem;
+    padding: 2rem;
+    background: ghostwhite;
+    border-radius: 0.1rem;
+  
+    .info-list {
+      margin: 0;
+      padding: 0;
+
+      &-item {
+        margin: 1rem 0;
+        list-style: none;
+        font-size: 1.2rem;
+        font-weight: 600;
+      }
+    }
+  }
+}
